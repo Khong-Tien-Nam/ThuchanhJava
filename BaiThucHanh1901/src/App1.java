@@ -1,20 +1,17 @@
 
 import java.util.Scanner;
 
-
 public class App1 {
-    private static Scanner Scanner;
-
     public static void main(String[] args) {
         double a,b,c;
 
-        Try (Scanner m = new Scanner(System.in)) {
+        try (Scanner n = new Scanner(System.in)) {
             System.out.print("Nhap he so a : ");
-            a = m.nextDouble();
+            a = n.nextDouble();
             System.out.print("Nhap he so b : ");
-            b = m.nextDouble();
+            b = n.nextDouble();
             System.out.print("Nhap he so c : ");
-            c = m.nextDouble();
+            c = n.nextDouble();
         }
         double delta = Math.pow(b, 2) - 4*a*c;
         double sqrt = Math.sqrt(delta);
@@ -45,4 +42,6 @@ public class App1 {
         }
     }
 }
+
+
 
