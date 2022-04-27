@@ -12,9 +12,9 @@ public class Student extends Person{
     this.gender = gender;
     this.GPA = GPA;
     } 
-    public void Hienthithongtin(){
+    public void Thongtinhocsinh(){
         super.Hienthithongtin();
-        System.out.println("\tDiachi: " + gender);
-        System.out.println("\tGioitinh: " + GPA);
+        System.out.println("\tGioitinh: " + gender);
+        System.out.println("\tGPA: " + GPA);
     }
 }
